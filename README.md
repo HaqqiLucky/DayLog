@@ -1,7 +1,7 @@
 # DayLog
 This app is for save all your job today, this app actually i made when the system is about to shutdown.. but i tried many way but it doesnt work, the shutdown runs too fast. in the end i just make an app (not really app) on dekstop, if you see there is a file named daylog.desktop it has .dekstop format. 
 
-# This not contains any virus, if you dont trust me just watch the how to setup i will explain some of the code, or just paste it on AI
+# This not contains any virus, if you dont trust me just read the how to setup i will explain some of the code, or just paste it on AI
 
 # Files Explanation
 1. daylog.dekstop | its for run the shell on one click... if this arent made, you still can run the shell but with terminal, which is not efficient for me (i dont memorize the command) thats why i created this .dekstop
