@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Daily Before Shutdown
+Comment=Run this first
+Exec=/home/liam/Documents/cheats/daily_report_of_me/your_report_shutdown.sh
+Icon=preferences-system-time-symbolic
+Terminal=True
