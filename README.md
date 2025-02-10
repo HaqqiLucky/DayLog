@@ -1,5 +1,8 @@
 # DayLog
-This app is for save all your job today, this app actually i made when the system is about to shutdown.. but i tried many way but it doesnt work, the shutdown runs too fast. in the end i just make an app (not really app) on dekstop, if you see there is a file named daylog.desktop it has .dekstop format. 
+This app is for helping the user to stay motivated and reflection. there is a list that will take your input and make it become one, and you also can see your past activity (as long as you didnt delete the file)
+
+# Behind the scenes
+Actually i made when the system is about to shutdown.. but i tried many way but it doesnt work, the shutdown runs too fast. in the end i just make an app (not really app) on dekstop, if you see there is a file named daylog.desktop it has .dekstop format. 
 
 # This not contains any virus, if you dont trust me just read the how to setup i will explain some of the code, or just paste it on AI
 
