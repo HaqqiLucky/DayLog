@@ -1,0 +1,62 @@
+#!/usr/bin/env bash
+
+quotes=(
+    "Every time you choose to slack off, remember—your future son is watching the man he’ll become."
+    "Your wife deserves a husband she can rely on, not someone she has to carry."
+    "The home you dream of won’t build itself—get up and make it real."
+    "Your kids will grow up remembering how hard you fought for them—make it a story worth telling."
+    "The comfort you enjoy today can turn into regret tomorrow if you waste time now."
+    "You don’t get to complain about a hard life if you’re not willing to fight for an easier one."
+    "Every lazy day is one more reason your kids might struggle in the future."
+    "Success isn’t a gift—it’s what you build when you refuse to settle."
+    "One day, your child will ask you how you made it. Don’t let the answer be ‘I gave up.’"
+    "You can either break generational struggles or pass them down—choose wisely."
+    "Your family’s future is being shaped right now, with every decision you make."
+    "Your child’s first hero is you. Be someone worth looking up to."
+    "Your wife didn’t marry you to carry all the weight alone—step up and be the man she deserves."
+    "Imagine looking into your child’s eyes and knowing you did everything to give them the best life."
+    "The sacrifices you make today will become the blessings your family lives with tomorrow."
+    "Hard work now means your kids won’t have to struggle like you did—don’t waste that chance."
+    "You either build your dream or watch your kids grow up in the nightmare of your laziness."
+    "A weak man makes excuses, a strong man makes a way."
+    "One day, you’ll sit in a house you built with your effort—or regret the one you never gave your family."
+    "If your son turns out exactly like you, would you be proud or ashamed?"
+    "Every hour wasted is an hour you’ll wish you had back when your family needs you."
+    "Your kids will grow up telling stories about you—make sure they’re stories of strength, not regret."
+    "The man you become is the foundation of the family you build—don’t be weak."
+    "You promised your future kids the best life—are you keeping that promise?"
+    "Your laziness today is the struggle your wife and kids will face tomorrow."
+    "You say you’d die for your family, but would you live for them? Would you fight for them?"
+    "Success is the best inheritance you can leave your kids—stop wasting time."
+    "A father who quits when things get hard teaches his children to do the same."
+    "Your son will copy you. Your daughter will look for a man like you. What example are you setting?"
+    "The pain of discipline today is nothing compared to the pain of regret tomorrow."
+    "Your child’s future isn’t built in a day—it’s built every day by the choices you make."
+    "Your wife believes in you. Your kids will depend on you. Don’t let them down."
+    "If you can work hard for a company, you can work harder for your family."
+    "A real man builds, protects, and leads his family—don’t be a passenger in your own home."
+    "The life you want for your kids is only possible if you fight for it now."
+    "One day, your son will wear your shoes—make sure they’re worth filling."
+    "You either put in the work now, or spend your future apologizing for what you didn’t do."
+    "Your children will either inherit your discipline or your bad habits—what legacy are you leaving?"
+    "Every choice you make today is shaping the life your family will live tomorrow."
+    "You wouldn’t want your son to be lazy—so why are you?"
+    "Your wife deserves security, your kids deserve stability—give them both by showing up every day."
+    "Time wasted today is stolen from your family’s happiness tomorrow."
+    "Your dream life is waiting on the other side of your excuses."
+    "Your kids will look back at your life for guidance—give them a roadmap to success, not failure."
+    "Nothing you buy for your kids will ever mean more than the example you set for them."
+    "You’re either building a future for your family, or watching someone else build one for theirs."
+    "Your son will be proud of the man you are—or disappointed. That choice is yours."
+    "One day, your daughter will tell people what kind of man her father was. Make her proud."
+    "Becoming a father is biology. Being a good father is a choice. Make the right one."
+)
+
+random_index=$(( RANDOM % ${#quotes[@]} ))
+quote="${quotes[$random_index]}"
+
+#<span size='large'>$quote</span>
+
+notify-send -t 15000 "HEY LOOK AT ME!!" "<b><i>$quote</i></b>" \
+    --icon="/usr/share/icons/Papirus-Dark/16x16/actions/stock_people.svg"
+
