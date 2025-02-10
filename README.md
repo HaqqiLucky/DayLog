@@ -1,3 +1,5 @@
+# I think the best time after you run this is after you do something or about to shutdown your device
+
 # DayLog
 This app is for helping the user to stay motivated and reflection. there is a list that will take your input and make it become one, and you also can see your past activity (as long as you didnt delete the file)
 
